@@ -1,8 +1,13 @@
 package main
 
-import "github.com/LutfiyaAinurrahmanP/go-gin/quickstart"
+import (
+	"github.com/LutfiyaAinurrahmanP/go-gin/examples"
+	// "github.com/LutfiyaAinurrahmanP/go-gin/quickstart"
+)
 
 func main() {
-	quickstart.Example()
-	quickstart.ExampleWithHTTP()
+	// quickstart.Example()
+	// quickstart.ExampleWithHTTP()
+
+	examples.AsciiJSON()
 }
