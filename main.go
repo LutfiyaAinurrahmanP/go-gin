@@ -17,5 +17,6 @@ func main() {
 	// examples.BindAndValidation()
 	// examples.CollectionFormatArrays()
 	// examples.Cookies()
-	examples.CustomLogFile()
+	// examples.CustomLogFile()
+	examples.Middleware()
 }
