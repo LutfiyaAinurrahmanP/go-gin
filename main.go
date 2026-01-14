@@ -18,5 +18,6 @@ func main() {
 	// examples.CollectionFormatArrays()
 	// examples.Cookies()
 	// examples.CustomLogFile()
-	examples.Middleware()
+	// examples.Middleware()
+	examples.CustomValidators()
 }
