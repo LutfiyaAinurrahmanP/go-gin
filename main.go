@@ -9,5 +9,6 @@ func main() {
 	// quickstart.Example()
 	// quickstart.ExampleWithHTTP()
 
-	examples.AsciiJSON()
+	// examples.AsciiJSON()
+	examples.BindFromFields()
 }
