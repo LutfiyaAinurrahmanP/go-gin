@@ -21,5 +21,6 @@ func main() {
 	// examples.Middleware()
 	// examples.CustomValidators()
 	// examples.ErrorHandlingMiddleware()
-	examples.GoroutinesInsideMiddleware()
+	// examples.GoroutinesInsideMiddleware()
+	examples.GracefulServer()
 }
