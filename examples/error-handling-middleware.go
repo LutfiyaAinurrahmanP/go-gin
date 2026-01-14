@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func ErrorHandler() gin.HandlerFunc{
+func ErrorHandler() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		ctx.Next() // Langkah 1: proses permintaan terlebih dahulu
 
@@ -27,7 +27,7 @@ func ErrorHandler() gin.HandlerFunc{
 	}
 }
 
-func ErrorHandlingMiddleware()  {
+func ErrorHandlingMiddleware() {
 	r := gin.Default()
 	// pasang middleware penanganan error
 	r.Use(ErrorHandler())

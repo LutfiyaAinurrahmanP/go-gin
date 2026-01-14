@@ -20,5 +20,6 @@ func main() {
 	// examples.CustomLogFile()
 	// examples.Middleware()
 	// examples.CustomValidators()
-	examples.ErrorHandlingMiddleware()
+	// examples.ErrorHandlingMiddleware()
+	examples.GoroutinesInsideMiddleware()
 }
