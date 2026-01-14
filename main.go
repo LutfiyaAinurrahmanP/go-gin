@@ -19,5 +19,6 @@ func main() {
 	// examples.Cookies()
 	// examples.CustomLogFile()
 	// examples.Middleware()
-	examples.CustomValidators()
+	// examples.CustomValidators()
+	examples.ErrorHandlingMiddleware()
 }
