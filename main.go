@@ -16,5 +16,6 @@ func main() {
 	// examples.BindingUri()
 	// examples.BindAndValidation()
 	// examples.CollectionFormatArrays()
-	examples.Cookies()
+	// examples.Cookies()
+	examples.CustomLogFile()
 }
