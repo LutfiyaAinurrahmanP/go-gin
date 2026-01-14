@@ -13,5 +13,6 @@ func main() {
 	// examples.BindFromFields()
 	// examples.BindFromCustomStruct()
 	// examples.BindingQueryStringOrPost()
-	examples.BindingUri()
+	// examples.BindingUri()
+	examples.BindAndValidation()
 }
