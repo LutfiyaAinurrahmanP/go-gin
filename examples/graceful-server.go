@@ -20,13 +20,13 @@ func GracefulServer() {
 	})
 
 	srv := &http.Server{
-		Addr: ":8080",
+		Addr:    ":8080",
 		Handler: r.Handler(),
 	}
 
-	go func(){
+	go func() {
 		// Melayani koneksi
-		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed{
+		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			log.Fatalf("listen: %s\n", err)
 		}
 	}()
