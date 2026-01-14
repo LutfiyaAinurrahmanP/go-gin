@@ -14,5 +14,6 @@ func main() {
 	// examples.BindFromCustomStruct()
 	// examples.BindingQueryStringOrPost()
 	// examples.BindingUri()
-	examples.BindAndValidation()
+	// examples.BindAndValidation()
+	examples.CollectionFormatArrays()
 }
