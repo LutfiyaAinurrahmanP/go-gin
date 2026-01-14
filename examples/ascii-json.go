@@ -12,7 +12,7 @@ func AsciiJSON() {
 	r.GET("/examples/ascii-json", func(ctx *gin.Context) {
 		data := map[string]interface{}{
 			"lang": "GO语言",
-			"tag": "<br>",
+			"tag":  "<br>",
 		}
 
 		ctx.AsciiJSON(http.StatusOK, data)

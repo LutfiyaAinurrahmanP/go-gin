@@ -32,7 +32,7 @@ func GetDataB(ctx *gin.Context) {
 	})
 }
 
-func GetDataC(ctx *gin.Context)  {
+func GetDataC(ctx *gin.Context) {
 	var b StructC
 	ctx.Bind(&b)
 	ctx.JSON(200, gin.H{
@@ -41,7 +41,7 @@ func GetDataC(ctx *gin.Context)  {
 	})
 }
 
-func GetDataD(ctx *gin.Context)  {
+func GetDataD(ctx *gin.Context) {
 	var b StructD
 	ctx.Bind(&b)
 	ctx.JSON(200, gin.H{
@@ -50,7 +50,7 @@ func GetDataD(ctx *gin.Context)  {
 	})
 }
 
-func BindFromCustomStruct()  {
+func BindFromCustomStruct() {
 	r := gin.Default()
 	r.GET("/getb", GetDataB)
 	r.GET("/getc", GetDataC)

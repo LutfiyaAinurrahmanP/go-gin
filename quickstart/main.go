@@ -17,7 +17,7 @@ func Example() {
 	router.Run()
 }
 
-func ExampleWithHTTP()  {
+func ExampleWithHTTP() {
 	router := gin.Default()
 
 	router.GET("/quickstart/example-with-http", func(ctx *gin.Context) {

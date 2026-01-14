@@ -11,5 +11,6 @@ func main() {
 
 	// examples.AsciiJSON()
 	// examples.BindFromFields()
-	examples.BindFromCustomStruct()
+	// examples.BindFromCustomStruct()
+	examples.BindingQueryStringOrPost()
 }
