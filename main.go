@@ -23,5 +23,6 @@ func main() {
 	// examples.ErrorHandlingMiddleware()
 	// examples.GoroutinesInsideMiddleware()
 	// examples.GracefulServer()
-	examples.GroupingRoute()
+	// examples.GroupingRoute()
+	examples.MultipartUrlencodedBinding()
 }
