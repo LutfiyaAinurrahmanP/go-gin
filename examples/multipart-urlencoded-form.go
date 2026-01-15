@@ -9,9 +9,9 @@ func MultipartUrlencodedForm() {
 		n := ctx.DefaultPostForm("nick", "anonymous")
 
 		ctx.JSON(200, gin.H{
-			"status": "posted",
+			"status":  "posted",
 			"message": m,
-			"nick": n,
+			"nick":    n,
 		})
 	})
 
